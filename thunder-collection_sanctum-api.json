@@ -1,0 +1,251 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "sanctum-api",
+    "dateExported": "2023-11-21T22:33:30.355Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3d822efe-cbcd-4056-a049-c51176f25304",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "GET",
+            "url": "http://127.0.0.1:8000/api/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-11-21T18:58:37.665Z",
+            "modified": "2023-11-21T20:24:40.362Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "60c0c320-eb50-4efe-9b03-c57d72e0ca98",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://127.0.0.1:8000/api/products",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-21T19:37:15.128Z",
+            "modified": "2023-11-21T21:50:22.808Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Kristijan",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "adf40c0f-d30c-46b6-9d89-d3a6716897c8",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "PUT",
+            "url": "http://127.0.0.1:8000/api/products/11?name=tete&slug=ettete&description=nova cena &price=33.33",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-11-21T20:20:39.885Z",
+            "modified": "2023-11-21T22:24:28.002Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "tete",
+                    "isPath": false
+                },
+                {
+                    "name": "slug",
+                    "value": "ettete",
+                    "isPath": false
+                },
+                {
+                    "name": "description",
+                    "value": "nova cena ",
+                    "isPath": false
+                },
+                {
+                    "name": "price",
+                    "value": "33.33",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "7|lppedB269j8zaVtDYZeCNs2gkDb0iMNrlvXTuz9J4ac3c418"
+            },
+            "tests": []
+        },
+        {
+            "_id": "31e0cb3e-beae-4480-a026-3122e7581d07",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://127.0.0.1:8000/api/products/11",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-11-21T20:24:13.145Z",
+            "modified": "2023-11-21T22:25:11.120Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "7|lppedB269j8zaVtDYZeCNs2gkDb0iMNrlvXTuz9J4ac3c418"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c1daa2cb-ce41-4ccc-aca0-28cd308804ca",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "SEARCH",
+            "url": "http://127.0.0.1:8000/api/products/search/naj",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-11-21T20:32:43.245Z",
+            "modified": "2023-11-21T22:19:01.529Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "415dc6d9-dee9-4452-abb7-86bb98fd3cf1",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "SHOW",
+            "url": "http://127.0.0.1:8000/api/products/10",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-11-21T20:57:00.211Z",
+            "modified": "2023-11-21T22:16:51.963Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "70e7dd5d-d9be-4392-9126-81b067dec745",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://127.0.0.1:8000/api/register?name=Jasminka Goshevska&email=jasminka@yahoo.com&password=asd123&password_confirmation=asd123",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-11-21T21:12:14.180Z",
+            "modified": "2023-11-21T22:10:15.178Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "Jasminka Goshevska",
+                    "isPath": false
+                },
+                {
+                    "name": "email",
+                    "value": "jasminka@yahoo.com",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "asd123",
+                    "isPath": false
+                },
+                {
+                    "name": "password_confirmation",
+                    "value": "asd123",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "ce01573b1c347cd82113bb9924236a4bf3bba219c2be641784c61d9914c18f3d"
+            },
+            "tests": []
+        },
+        {
+            "_id": "da0c5f37-bc2f-4c55-b925-0cbc79f717f3",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "Logout",
+            "url": "http://127.0.0.1:8000/api/logout",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-11-21T21:28:42.742Z",
+            "modified": "2023-11-21T22:17:51.392Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "5|RpQEqDBFD2r3TAT9LT2F79TMHoGWe0EuYruR2vcNb61c8d2a"
+            },
+            "tests": []
+        },
+        {
+            "_id": "552ea9a8-25cf-4a94-821c-1ea7816d2f4d",
+            "colId": "3c1ecd37-becf-4854-9a1c-1eecb04ca7ea",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://127.0.0.1:8000/api/login?email=krissgoshevski@yahoo.com&password=asd123",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-11-21T22:05:14.362Z",
+            "modified": "2023-11-21T22:15:18.634Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "krissgoshevski@yahoo.com",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "asd123",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
