@@ -1,3 +1,33 @@
+
+
+Controller for ALL CRUD OPERATIONS and Search method WITH API, returns the data in JSON FORMAT
+
+
+
+Installed Sanctum packet for Auth the users and configurated
+
+
+
+Custom Requests
+
+
+
+Validations
+
+
+
+Middlewares
+
+
+
+Models with ORM Relationships
+
+
+
+TEST CASES WITH Thunder Client for all APlS
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
