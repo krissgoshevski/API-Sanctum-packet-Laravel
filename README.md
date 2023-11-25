@@ -1,10 +1,13 @@
-
-
-Controller for ALL CRUD OPERATIONS and Search method WITH API, returns the data in JSON FORMAT
-
-
-
 Installed Sanctum packet for Auth the users and configurated
+
+
+ProductController for ALL CRUD OPERATIONS and Search method WITH API, returns the data in JSON FORMAT
+
+
+AuthControler for Login, Register and Logout with AUTH:SANCTUM
+
+
+Seeder for the products to seed in the db random products
 
 
 
